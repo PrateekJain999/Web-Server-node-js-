@@ -1,0 +1,23 @@
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: rgb(204, 163, 30);
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: rgba(34, 11, 11, 0.5);
+}
+
+.navbar a.active {
+  background-color: #f4f5f7;
+}
